@@ -68,5 +68,5 @@ Here's your first chance to practice this:
 
 What is your favorite emoji?  (Check out this [emoji cheat sheet](http://www.emoji-cheat-sheet.com/).)
 
->> :smiling_imp:
+>> :smiling_imp: :sleepy:
 
