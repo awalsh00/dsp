@@ -45,23 +45,38 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > If no additional options are included, all of these commands will operate on the current directory 
+> >
+> > 1. List directory content, excluding those entries that start with a dot (.)
+> > 2. List everything, including entries that start with a dot (.)
+> > 3. List directory content, excluding dot entries, in a long format
+> > 4. List directory content, excluding dot entries, in a long format and display size information in “human readable” format (e.g. KB, MB, GB, etc)
+> > 5. The same as #4, but include entries that start with a dot
+> > 6. The same as #1 but the results are sorted by time (newest to oldest); I personally prefer `ls -alrt`
+> > 7. List directory content, excluding dot entries, in a long format; color code the results; add a trailing slash (/) if the entry is a directory
 
 ---
 
-### Q3.  More List Files in Unix  
+### Q3.  More List Files in Unix
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > - `ls -alrt`
+> > - `ls -1`
+> > - `ls -ld`
+> > - `ls -alb`
+> > - `ls -alq`
 
 ---
 
-### Q4.  Xargs   
+### Q4.  Xargs
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
- 
-
+> > The `xargs` command reads white space delimited strings from standard input and uses what it finds as parameters to a command. It can be used to concatenate multi-line input to run against a single command, for example:
+> >
+> > `ls -1 | xargs touch` - Update the timestamp of everything in the current directory
+> >
+> > It can also be used to run the same command across multiple inputs, for example:
+> >
+> > `ls | xargs -n1 -I{} cp -p {} {}.`date +%Y%d%m` - Makes a date stamped backup of everything in the current directory
