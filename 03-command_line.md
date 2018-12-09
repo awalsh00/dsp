@@ -6,9 +6,12 @@ Please follow and complete the free online [Bash Scripting Tutorial](https://rya
 
 ---
 
+## Questions
+
 ### Q1.  Cheat Sheet of Commands  
 
 Here's a list of items with which you should be familiar:  
+
 * show current working directory path
 * creating a directory
 * deleting a directory
@@ -20,21 +23,18 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-#### My Cheat Sheet
-`pwd`  
-`mkdir <dirname>`  
-`rmdir <dirname>` or `rm -rf <dirname>`  
-`touch <filename>`  
-`rm <filename>`  
-`mv <old_name> <new_name>`  
-`ls -d .*`  
-`cp [<source_dir>/]<source_file> <target_dir>`  
-`find . -type f -exec grep -il <string>`  
-``cp -p <filename> <filename>.`date +%Y%m%d` ``[^1] 
+### My Cheat Sheet
 
-[^1]: You may need to enclose the format string in single quotes (‘+%Y%m%d’) if % is a shell escape (e.g. in csh/tcsh)
-
-  
+1. * `pwd`  
+2. * `mkdir <dirname>`  
+3. * `rmdir <dirname>` or `rm -rf <dirname>`  
+4. * `touch <filename>`  
+5. * `rm <filename>`  
+6. * `mv <old_name> <new_name>`  
+7. * `ls -d .*`  
+8. * `cp [<source_dir>/]<source_file> <target_dir>`  
+9. * `find . -type f -exec grep -il <string>`  
+10. * ``cp -p <filename> <filename>.`date +%Y%m%d` ``[**¹**](#footnotes)
 
 ---
 
@@ -49,7 +49,7 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > If no additional options are included, all of these commands will operate on the current directory 
+> > If no additional options are included, all of these commands will operate on the current directory
 > >
 > > 1. List directory content, excluding those entries that start with a dot (.)
 > > 2. List everything, including entries that start with a dot (.)
@@ -65,11 +65,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > - `ls -alrt`
-> > - `ls -1`
-> > - `ls -ld`
-> > - `ls -alb`
-> > - `ls -alq`
+> > * `ls -alrt`
+> > * `ls -1`
+> > * `ls -ld`
+> > * `ls -alb`
+> > * `ls -alq`
 
 ---
 
@@ -83,4 +83,8 @@ What does `xargs` do? Give an example of how to use it.
 > >
 > > It can also be used to run the same command across multiple inputs, for example:
 > >
-> > `` ls | xargs -n1 -I{} cp -p {} {}.`date +%Y%d%m` ``[^1] - Makes a date stamped backup of everything in the current directory
+> > `` ls | xargs -n1 -I{} cp -p {} {}.`date +%Y%d%m` ``[**¹**](#footnotes) - Makes a date stamped backup of everything in the current directory
+
+#### Footnotes
+
+¹ You may need to enclose the format string in single quotes, `‘+%Y%m%d’`, if % is a shell escape (e.g. in csh/tcsh)
