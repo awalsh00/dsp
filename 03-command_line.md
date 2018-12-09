@@ -21,16 +21,16 @@ Here's a list of items with which you should be familiar:
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
 #### My Cheat Sheet
-`pwd`
-`mkdir <dirname>`
-`rmdir <dirname>` or `rm -rf <dirname>`
-`touch <filename>`
-`rm <filename>`
-`mv <old_name> <new_name>`
-`ls -d .*`
-`cp [<source_dir>/]<source_file> <target_dir>`
-`find . -type f -exec grep -il <string>`
-`cp -p <filename> <filename>.`date '+%Y%m%d'`
+`pwd`  
+`mkdir <dirname>`  
+`rmdir <dirname>` or `rm -rf <dirname>`  
+`touch <filename>`  
+`rm <filename>`  
+`mv <old_name> <new_name>`  
+`ls -d .*`  
+`cp [<source_dir>/]<source_file> <target_dir>`  
+`find . -type f -exec grep -il <string>`  
+`cp -p <filename> <filename>.`date '+%Y%m%d'`  
 
 ---
 
