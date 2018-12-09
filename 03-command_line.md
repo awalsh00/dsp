@@ -25,29 +25,30 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 ### My Cheat Sheet
 
-1. * `pwd`  
-2. * `mkdir <dirname>`  
-3. * `rmdir <dirname>` or `rm -rf <dirname>`  
-4. * `touch <filename>`  
-5. * `rm <filename>`  
-6. * `mv <old_name> <new_name>`  
-7. * `ls -d .*`  
-8. * `cp [<source_dir>/]<source_file> <target_dir>`  
-9. * `find . -type f -exec grep -il <string>`  
-10. * ``cp -p <filename> <filename>.`date +%Y%m%d` ``[**¹**](#footnotes)
+1. `pwd`  
+2. `mkdir <dirname>`  
+3. `rmdir <dirname>` or `rm -rf <dirname>`  
+4. `touch <filename>`  
+5. `rm <filename>`  
+6. `mv <old_name> <new_name>`  
+7. `ls -d .*`  
+8. `cp [<source_dir>/]<source_file> <target_dir>`  
+9. `find . -type f -exec grep -il <string>`  
+10. ``cp -p <filename> <filename>.`date +%Y%m%d` ``[**¹**](#footnotes)
 
 ---
 
 ### Q2.  List Files in Unix
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
+
+1. `ls`  
+2. `ls -a`  
+3. `ls -l`  
+4. `ls -lh`
+5. `ls -lah`  
+6. `ls -t`  
+7. `ls -Glp`  
 
 > > If no additional options are included, all of these commands will operate on the current directory
 > >
@@ -65,11 +66,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > * `ls -alrt`
-> > * `ls -1`
-> > * `ls -ld`
-> > * `ls -alb`
-> > * `ls -alq`
+> > 1. `ls -alrt`
+> > 1. `ls -1`
+> > 1. `ls -ld`
+> > 1. `ls -alb`
+> > 1. `ls -alq`
 
 ---
 
