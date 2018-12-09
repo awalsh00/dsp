@@ -30,11 +30,15 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 `ls -d .*`  
 `cp [<source_dir>/]<source_file> <target_dir>`  
 `find . -type f -exec grep -il <string>`  
-`cp -p <filename> <filename>.`date '+%Y%m%d'`  
+``cp -p <filename> <filename>.`date +%Y%m%d` ``[^1] 
+
+[^1]: You may need to enclose the format string in single quotes (‘+%Y%m%d’) if % is a shell escape (e.g. in csh/tcsh)
+
+  
 
 ---
 
-### Q2.  List Files in Unix   
+### Q2.  List Files in Unix
 
 What do the following commands do:  
 `ls`  
@@ -79,4 +83,4 @@ What does `xargs` do? Give an example of how to use it.
 > >
 > > It can also be used to run the same command across multiple inputs, for example:
 > >
-> > `ls | xargs -n1 -I{} cp -p {} {}.`date +%Y%d%m` - Makes a date stamped backup of everything in the current directory
+> > `` ls | xargs -n1 -I{} cp -p {} {}.`date +%Y%d%m` ``[^1] - Makes a date stamped backup of everything in the current directory
