@@ -84,7 +84,7 @@ What does `xargs` do? Give an example of how to use it.
 > >
 > > It can also be used to run the same command across multiple inputs, for example:
 > >
-> > `` ls | xargs -n1 -I{} cp -p {} {}.`date +%Y%d%m` ``[**¹**](#footnotes) - Makes a date stamped backup of everything in the current directory
+> > ``ls | xargs -n1 -I{} cp -p {} {}.`date +%Y%d%m` ``[**¹**](#footnotes) - Makes a date stamped backup of everything in the current directory
 
 #### Footnotes
 
