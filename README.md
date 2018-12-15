@@ -1,6 +1,6 @@
-![Metis logo](img/metis.png)
-
 # [Metis](http://www.thisismetis.com/) Data Science Bootcamp Pre-work
+
+![Metis logo](img/metis.png)
 
 ## Table of Contents
 
@@ -65,7 +65,7 @@ Step 8. [More Resources](08-more_resources.md)
 
 ## 4.  FAQs
 
-### Q:  How do I submit pre-work?
+### Q:  How do I submit pre-work
 
 * Sections 0 to 4
   * Make all changes to your forked repo; **this is considered your pre-work submission.**  (No need to submit pull requests to the thisismetis/dsp repo.)
@@ -74,10 +74,10 @@ Step 8. [More Resources](08-more_resources.md)
 * Statistics
   * Make all changes to your forked repo
 
-### Q:  Can I discuss prework with other students in the course?
+### Q:  Can I discuss prework with other students in the course
 
 Yes
 
-### Q:  Can I ask for hints for python questions?
+### Q:  Can I ask for hints for python questions
 
 Yes
