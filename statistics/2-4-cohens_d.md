@@ -53,10 +53,10 @@ print("\tCohen's d:",cohensd_wgt,cohensd_lng,sep='\t')
 ### Output
 
 ```
-Function			Total Weight			Pregnancy Length
+Function		Total Weight			Pregnancy Length
 First babies mean:	7.201094430437772		38.60095173351461
 Other babies mean:	7.325855614973262		38.52291446673706
-		Cohen's d:	-0.08868274594713024	0.028882209288160925
+	Cohen's d:	-0.08868274594713024		0.028882209288160925
 ```
 
 The **Cohen's d** for total weight is _3x_ larger than it is for length.
