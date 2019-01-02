@@ -51,4 +51,4 @@ thinkplot.Config(xlabel='Children',ylabel='p')
 actual  1.024205155043831
 biased  2.461860525971477
 ```
-![actual vs biased](./output_10_0.png)
+![actual vs biased](output_3_1_0.png)
