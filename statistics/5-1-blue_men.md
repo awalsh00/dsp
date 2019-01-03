@@ -8,8 +8,6 @@ In order to [join Blue Man Group](http://bluemancasting.com), you have to be mal
 
 _Hint: use scipy.stats.norm.cdf_
 
-[[Link Test of stuff|ts2]]
-
 ## Answer
 
 ### Code
