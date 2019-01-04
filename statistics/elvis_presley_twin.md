@@ -49,5 +49,8 @@ TwinHypothesis.Print()
 ```
 
 ### Output
+
+```
 fraternal 0.5454545454545455
 identical 0.45454545454545453
+```
