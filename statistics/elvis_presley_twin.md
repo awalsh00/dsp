@@ -1,4 +1,4 @@
-# [Bayesian - Elvis Presley Twin](..\07-statistics.md#section-d)
+# [Bayesian - Elvis Presley Twin](../07-statistics.md#q5-bayesian-elvis-presley-twin)
 
 ## Question
 Bayes' Theorem is an important tool in understanding what we really know, given evidence of other information we have, in a quantitative way. It helps incorporate conditional probabilities into our conclusions.
