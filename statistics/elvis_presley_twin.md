@@ -1,6 +1,7 @@
 # [Bayesian - Elvis Presley Twin](../07-statistics.md#q5-bayesian-elvis-presley-twin)
 
 ## Question
+
 Bayes' Theorem is an important tool in understanding what we really know, given evidence of other information we have, in a quantitative way. It helps incorporate conditional probabilities into our conclusions.
 
 Elvis Presley had a twin brother who died at birth. What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.
@@ -20,13 +21,16 @@ Elvis Presley had a twin brother who died at birth. What is the probability that
 - P(iden) = 1/300
 
 #### Other Data (D)
+
 The dead twin is Male
 
 #### Likelihood
+
 - P(frat|Male) = .5 (if fraternal it could also have been female)
 - P(iden|Male) = 1 (if female this would have been 0)
 
 ### Code
+
 ```python
 # `ts2` is a sym-link to the `thinkstats2/code` directory 
 # (for me: `~ds/metis/metisgh/prework/ThinkStats2/code`)
